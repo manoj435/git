@@ -1,0 +1,37 @@
+#yum insatll git				----- To install git
+
+#git --version					----- To check version
+
+#git config --global user.name <user_name>	----- to add global username for the git
+
+#git config --global user.email <mail ID>	----- to add global mail id
+
+git config --global color.ui auto		----- color change 
+
+#less /root/.gitconfig				----- to check the global repository for th user name and email id
+
+#git config --local user.name <user_name>	----- to add local repository 
+
+#less .git/config				----- to check the local repository username 
+
+#git init <project_name>			----- creating a new project
+
+#cd <project_name>				--- changing to new project
+
+#vi <file>					----- create a sample file (Now that file in the working directory)
+
+#git add <file>					---- we need to add to the staging directory, use this command
+
+#git status					---- to check the status of the files
+
+#git commit -m "<comment>" <file>		---- to add files to the 
+
+#git status					---- to check the status of the files
+
+#git diff					---- to verify any updates happened for the existing files or any new files which are not comitted
+
+#git remote add <name> <remote repository ID>	--- to add remote(master) repository
+
+#git push -u <name> master			---- push the files to the master reposiroty 
+	
+#less .git/config				---- to verify the file
