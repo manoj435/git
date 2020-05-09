@@ -66,4 +66,39 @@ branches :
 				                  } what it will do is if use the tag command then if you revert the change and again if want that change then the data will not lost if you applied tag
 #git checkout <tag name>(chnage to another tag)   |
 
+git merge conflict :
 
+#git init <project name>
+
+#cd <project name>
+
+#touch file.txt
+
+#git branch
+
+#git branch f1
+
+#git branch f2
+
+#git checkout f1
+
+#cat >>file.txt
+	code added by f1
+
+#git checkout f2
+
+#cat >>file.txt
+	code added by f2
+
+#git checout master
+
+#git merge f1
+
+#git merge f2 <error> wht you need to do is install the vim to compare and add
+
+#yum install vim -y
+
+#vim file.txt (in this file we can check and update)
+:wq!
+
+#cat file.txt
