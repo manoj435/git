@@ -40,6 +40,8 @@
 
 #git log --oneline				--- it will show only the id who commited
 
+#git log --graph --pretty=oneline		--- logs check
+
 #git clone <git remote repo>			--- if you want to download the files from the github repo then use this command
 
 branches :
@@ -54,4 +56,6 @@ branches :
 
 #git merge <branch name>			--- it will merge the two branches which we want to merge (means the files in the another branch will merge the files)
 
-#git rebase <branch name>			--- merge and rebase is same in the funculty wise, but the diff is for example if you want to merge from the master to the branch then use 'merge' and you want to use the branch to master then use 'rebase'
+#git rebase <branch name>			--- merge and rebase is same in the funcutionality wise, diff is maintaing in a log info proper way. if it is master then use the merge and if it is feature branch then use the rebase command.
+
+
