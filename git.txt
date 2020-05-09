@@ -6,17 +6,21 @@
 
 #git config --global user.email <mail ID>	----- to add global mail id
 
-git config --global color.ui auto		----- color change 
+#git config --global color.ui auto		----- color change 
 
 #less /root/.gitconfig				----- to check the global repository for th user name and email id
 
+#mkdir <project name>				----- Create a sample project first
+
+#cd <project name>				----- jump to the project
+
+#git init <project_name>                        ----- creating a new project
+
 #git config --local user.name <user_name>	----- to add local repository 
 
+#git remote add <name> <remote repository ID>   --- to add remote(master) repo
+
 #less .git/config				----- to check the local repository username 
-
-#git init <project_name>			----- creating a new project
-
-#cd <project_name>				--- changing to new project
 
 #vi <file>					----- create a sample file (Now that file in the working directory)
 
@@ -24,14 +28,11 @@ git config --global color.ui auto		----- color change
 
 #git status					---- to check the status of the files
 
-#git commit -m "<comment>" <file>		---- to add files to the 
+#git commit -m "<comment>" <file>		---- to add files to the staged directory
 
 #git status					---- to check the status of the files
 
 #git diff					---- to verify any updates happened for the existing files or any new files which are not comitted
 
-#git remote add <name> <remote repository ID>	--- to add remote(master) repository
-
 #git push -u <name> master			---- push the files to the master reposiroty 
 	
-#less .git/config				---- to verify the file
