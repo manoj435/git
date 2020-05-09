@@ -26,6 +26,8 @@
 
 #git add <file>					---- we need to add to the staging directory, use this command
 
+#git add . 					--- it will add to the staging directory all files in the working directory
+
 #git status					---- to check the status of the files
 
 #git commit -m "<comment>" <file>		---- to add files to the staged directory
@@ -57,5 +59,11 @@ branches :
 #git merge <branch name>			--- it will merge the two branches which we want to merge (means the files in the another branch will merge the files)
 
 #git rebase <branch name>			--- merge and rebase is same in the funcutionality wise, diff is maintaing in a log info proper way. if it is master then use the merge and if it is feature branch then use the rebase command.
+
+#git revert <commited id>			-- to revert the chnages for the last commit using commit id
+
+#git tag <tag name>(to create a tag)              |
+				                  } what it will do is if use the tag command then if you revert the change and again if want that change then the data will not lost if you applied tag
+#git checkout <tag name>(chnage to another tag)   |
 
 
