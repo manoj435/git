@@ -1,4 +1,4 @@
-#yum insatll git				----- To install git
+#yum install git -y				----- To install git
 
 #git --version					----- To check version
 
@@ -35,4 +35,9 @@
 #git diff					---- to verify any updates happened for the existing files or any new files which are not comitted
 
 #git push -u <name> master			---- push the files to the master reposiroty 
-	
+
+#git log					---- logs to check who commited
+
+#git log --oneline				--- it will show only the id who commited
+
+#git clone <git remote repo>			--- if you want to download the files from the github repo then use this command
